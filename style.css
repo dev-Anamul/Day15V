@@ -1,0 +1,235 @@
+/* ////// ==== >>>> deafault css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text__center {
+  text-align: center;
+}
+.text__right {
+  text-align: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.text__container {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+/* //// ==== >>>>  header css */
+.header__section {
+  background-color: #3498db;
+  padding: 15px 0;
+}
+
+.header__logo {
+  width: 30%;
+}
+.logo__img {
+  width: 150px;
+}
+.header__menu {
+  width: 70%;
+  text-align: right;
+  line-height: 50px;
+}
+.menu__list {
+}
+.menu__item {
+  display: inline-block;
+}
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+  padding: 49.5% 20px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.menu__link:hover {
+  color: orangered;
+}
+
+/* ///// ===== >>>>> banner css */
+.banner__section {
+  background-image: url(https://i.ibb.co/nR9M78t/banner-2143727-1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0;
+}
+.banner__heading {
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.banner__sub {
+  color: #fff;
+  font-weight: 400;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+.banner__btn {
+  border: 2px solid #ddd;
+  outline: none;
+  text-transform: uppercase;
+  background-color: #3498db;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.banner__btn:hover {
+  color: orangered;
+  background-color: #fff;
+  border: 2px solid #3498db;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* //// ====>>>>> service section css */
+.service__section {
+  padding: 100px 0;
+}
+.service__card {
+  width: 32%;
+  padding: 35px 30px;
+  float: left;
+  height: 300px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.service__card:not(:last-child) {
+  margin-right: 2%;
+}
+.service__card:hover {
+  transform: translate(0px, -30px) scale(1.05);
+  -webkit-transform: translate(0px, -30px) scale(1.05);
+  -moz-transform: translate(0px, -30px) scale(1.05);
+  -ms-transform: translate(0px, -30px) scale(1.05);
+  -o-transform: translate(0px, -30px) scale(1.05);
+}
+.service__card:hover > .card__icon {
+  background-color: #3498db;
+}
+.card__icon {
+  background-color: orangered;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 10px 0 10px 0;
+  -webkit-border-radius: 10px 0 10px 0;
+  -moz-border-radius: 10px 0 10px 0;
+  -ms-border-radius: 10px 0 10px 0;
+  -o-border-radius: 10px 0 10px 0;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.card__heading {
+  margin: 5px 0;
+}
+.card__text {
+  padding: 0 15px;
+}
+
+/* ////// ====== >>>>> about css */
+.about__section {
+  padding: 100px 0px 0px 0;
+}
+.about__heading {
+}
+.about__text {
+  padding: 0 155px;
+}
+
+/* ///// ====== >>>>> blog section css */
+.blog__section {
+  padding: 50px 0;
+}
+.blog__left {
+  width: 75%;
+}
+.blog__item {
+}
+.blog__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.blog__img {
+  width: 23%;
+}
+.blog__text {
+  width: 75%;
+  margin-top: 50px;
+}
+.blog__right {
+  width: 20%;
+  margin-top: 40px;
+}
+.notice__board {
+  margin-top: 30px;
+}
+.notice__heading {
+}
+.notice__list {
+  list-style: none;
+}
+.notice__item {
+  margin: 10px 0;
+}
+.notice__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+  border: 1px solid #ddd;
+  padding: 10px 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.notice__link:hover {
+  transform: scaleX(1.2);
+  -webkit-transform: scaleX(1.2);
+  -moz-transform: scaleX(1.2);
+  -ms-transform: scaleX(1.2);
+  -o-transform: scaleX(1.2);
+  color: #3498db;
+}
+/* ////// ======= >>>>>> footer css */
+.footer__section {
+  background-color: #222;
+  padding: 15px 0;
+  color: #fff;
+}
